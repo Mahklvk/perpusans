@@ -63,7 +63,7 @@ $jumlahBooks = mysqli_num_rows($queryGetBooks);
                                     <p class="card-text">
                                         <?php echo strlen($getData['description']) > 100 ? substr($getData['description'], 0, 100) . '...' : $getData['description']; ?>
                                     </p>
-                                    <p class="card-text"><small class="text-body-secondary">Last updated: <?php echo $getData['updated_at']; ?></small></p>
+                                    <p class="card-text"><small class="text-body-secondary">Created At: <?php echo $getData['created_at']; ?></small></p>
                                     <!-- tombol detail -->
                                     <form method="post" action="topic_detail.php?p=<?php echo $getData['book_id']?>">
                                         <button type="submit" name="action" value="Detail"
