@@ -1,6 +1,6 @@
-<nav class="navbar navbar-expand-lg">
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark">
         <div class="container-fluid">
-          <a class="navbar-brand logo-brand" href="#" style="font-size: 3vh;">PERPUSANS</a>
+          <a class="navbar-brand logo-brand text-primary" href="#" style="font-size: 3vh;">PERPUSANS</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -11,10 +11,10 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">FAQ</a>
+          <a class="nav-link" href="#faq">FAQ</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Books</a>
@@ -22,9 +22,9 @@
              
             </ul>
             <form class="d-flex">
-              <a href=""><button class="btn btn-outline-dark me-3">Login</button></a>
-              <div class="vr bg-dark"></div>
-              <a href=""><button class="btn btn-outline-dark me-2 ms-3">Sign In</button></a>
+              <a href=""><button class="btn btn-outline-primary me-3">Login</button></a>
+              <div class="vr bg-primary"></div>
+              <a href=""><button class="btn btn-outline-primary me-2 ms-3">Sign In</button></a>
             </form>
           </div>
         </div>
