@@ -61,12 +61,12 @@ require 'config/conn.php';
                                         // Memverifikasi password
                                         if ($password === $data['password']) {
                                             // Jika berhasil, buat session
-                                            $_SESSION['name'] = $data['name'];
+                                            $_SESSION['email'] = $data['email'];
                                             $_SESSION['login'] = true;
                                             echo "<script>
                                                     Swal.fire({
                                                         title: 'Login Berhasil!',
-                                                        text: 'Selamat datang, " . $data['name'] . "!',
+                                                        text: 'Selamat datang, " . $data['username'] . "!',
                                                         icon: 'success'
                                                     }).then(() => {
                                                         window.location.href = '../admin/';
