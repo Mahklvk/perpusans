@@ -29,7 +29,7 @@ $jumlahBooks = mysqli_num_rows($queryGetBooks);
     <div class="container mt-3">
         <div class="">
             <h1 class="text-center">List Books</h1>
-                <button type="button" class="btn btn-primary button-add col-12">Add Book</button>
+                <a href="addbooks.php"><button type="button" class="btn btn-primary button-add col-12">Add Book</button></a>
             <div class="table-responsive mt-5">
                 <table class="table">
                     <thead>
@@ -68,7 +68,7 @@ $jumlahBooks = mysqli_num_rows($queryGetBooks);
                                     ?></td>
                                     <td><?php echo $data['image']?></td>
                                     <td>
-                                        <a href="useredit.php?p=<?php echo $data['book_id']; ?>">
+                                        <a href="bookdetail.php?p=<?php echo $data['book_id']; ?>">
                                             <div class="btn btn-primary">Edit</div>
                                         </a>
                                     </td>
