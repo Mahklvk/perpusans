@@ -36,7 +36,7 @@ $jumlahBooks = mysqli_num_rows($queryGetBooks);
                     <div class="row g-0">
                         <div class="col-md-4">
                             <!-- Menampilkan gambar -->
-                            <img src="assets/images/<?php echo $getData['image']; ?>" class="img-fluid rounded-start" alt="<?php echo htmlspecialchars($getData['title']); ?>">
+                            <img src="assets/storage/<?php echo $getData['image']; ?>" class="img-fluid rounded-start" alt="<?php echo htmlspecialchars($getData['title']); ?>">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
