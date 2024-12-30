@@ -11,10 +11,10 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="logAdmin.php">Log Admin</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#faq">FAQ</a>
+          <a class="nav-link" href="logUser.php">Log User</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="books.php">Books</a>
