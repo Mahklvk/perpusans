@@ -15,9 +15,10 @@ $query = mysqli_query($conn, "SELECT * FROM books");
     <title>Books</title>
 </head>
 <body>
-
+    <?php require "config/navbar.php"?>
 
     <div class="container mt-5">
+        <a href="addbooks.php" class="btn btn-primary col-12">ADD BOOK</a>
         <h3 class="text-center">Books</h3>
         <table class="table table-bordered">
             <thead>
