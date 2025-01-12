@@ -123,7 +123,6 @@ $jumlahUser = mysqli_num_rows($queryGetUser);
     <div class="container mt-3">
         <div class="row">
             <div class="col-lg-4 col-md-12 col-12 col-sm-12 mb-2">
-                <a href="post.php" class="no-decoration">
                 <div class="summary-user p-3">
                     <div class="row">
                         <div class="col-6">
@@ -137,11 +136,11 @@ $jumlahUser = mysqli_num_rows($queryGetUser);
                         </div>
                     </div>
                 </div>
-            </a>
+            
             </div>
 
             <div class="col-lg-4 col-md-12 col-12 col-sm-12 mb-2">
-                <a href="post.php" class="no-decoration">
+                <a href="books.php" class="no-decoration">
                 <div class="summary-post p-3">
                     <div class="row">
                         <div class="col-6 ">
