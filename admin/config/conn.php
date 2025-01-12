@@ -2,7 +2,7 @@
 $name = "root";
 $pass = "";
 $host = "localhost";
-$database = "perpusop";
+$database = "perpusans";
 
 $conn = mysqli_connect($host, $name, $pass, $database);
 

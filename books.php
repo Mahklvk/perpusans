@@ -52,7 +52,7 @@ $jumlahBooks = mysqli_num_rows($queryGetBooks);
                                     ?>
                                 </p>
                                 <p class="card-text"><small class="text-body-secondary">Created At: <?php echo htmlspecialchars($getData['created_at']); ?></small></p>
-
+                                
                                 <form method="post" action="topic_detail.php?p=<?php echo $getData['book_id']?>">
                                         <button type="submit" name="action" value="Detail"
                                             class="btn btn-primary btn-sm">Detail</button>
