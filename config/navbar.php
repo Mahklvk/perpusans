@@ -21,11 +21,6 @@
         </li>
              
             </ul>
-            <form class="d-flex">
-              <a href=""><button class="btn btn-outline-primary me-3">Login</button></a>
-              <div class="vr bg-primary"></div>
-              <a href=""><button class="btn btn-outline-primary me-2 ms-3">Sign In</button></a>
-            </form>
           </div>
         </div>
       </nav>
