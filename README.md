@@ -1,6 +1,3 @@
-Here is the README translated into English:
-
-```markdown
 # Perpusans
 
 Perpusans is a library management software project designed to facilitate book management and other related data.
@@ -66,6 +63,3 @@ Contributions are welcome. Please fork this repository and create a pull request
 ## License
 
 This project is licensed under the MIT license. See the [LICENSE](LICENSE) file for more details.
-```
-
-Let me know if you need further adjustments! 🚀
